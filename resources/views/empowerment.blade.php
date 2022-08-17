@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
-@section('title-blok')
+@section('content')
+    <h1>Female empowerment</h1>
 @endsection
 
-@section('content')
+@section('title-blok')
+    Female empowerment
 @endsection

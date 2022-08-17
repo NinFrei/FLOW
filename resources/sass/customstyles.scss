@@ -1,0 +1,66 @@
+//$font-stack: 'Inter', sans-serif;
+//$primary-color: #333;
+//$background-color: rgb(255, 255, 255);
+
+body {
+
+    background: #fafafa;
+    font-family: 'Inknut Antiqua';
+    margin: 0;
+}
+
+.header1 {
+    background-color: rgb(220, 237, 31);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 4rem !important;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.headertext1 {
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-size: 10rem;
+    font-weight: bold;
+    background: linear-gradient(46deg, rgb(2, 2, 250), red, rgb(173, 3, 173));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inknut Antiqua';
+}
+
+.logo1 {
+    max-height: 160px;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .header1 {
+        height: 100px;
+    }
+
+    .headertext1 {
+        color: #aff;
+        font-size: 3rem;
+    }
+
+    .logo1 {
+        max-height: 80px;
+    }
+
+    .footer {
+        height: 100px;
+    }
+}

@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
-@section('title-blok')
-@endsection
+
 
 @section('content')
+    <h1>Shop</h1>
+@endsection
+
+@section('title-blok')
+    Shop
 @endsection
