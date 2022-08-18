@@ -22,23 +22,41 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/customstyles.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
     <title>@yield('title-blok')</title>
 </head>
 
 <body>
     @include('inc.header')
+
+    @if (Request::is('/'))
+        @include('inc.text')
+    @endif
+
+
+
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-8">
+
                     <h1><a href="/messages">@yield('title')</a></h1>
                     @yield('content')
+
+                    @if (Request::is('/contact'))
+                        @include('inc.text')
+                    @endif
+
                 </div>
+                <div class="col-4" @include('inc.aside') @include('inc.footer') <div><b>Dummy Footer:
+                        {{ date('d.m.Y') }}
+                    </b></div>
+
             </div>
         </div>
     </div>
-    @include('inc.footer')
-    <div><b>Dummy Footer: {{ date('d.m.Y') }}</b></div>
+
+    </div>
 </body>
 
 </html>
