@@ -1,9 +1,11 @@
 @extends('layouts.app')
 
-
+@section('title-blok')
+    Kontakt
+@endsection
 
 @section('content')
-    <h1>Contact</h1>
+    <h1>Kontakt</h1>
 
 
     <form action="{{ route('contact-form') }}" method="post">

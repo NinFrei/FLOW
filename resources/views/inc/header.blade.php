@@ -24,7 +24,7 @@
             <a class="p-2 text-dark" href="{{ route('shop') }}">Shop</a>
             <a class="p-2 text-dark" href="{{ route('aboutme') }}">About me</a>
             <a class="p-2 text-dark" href="{{ route('contact') }}">Contact</a>
-
+            <a class="p-2 text-dark" href="{{ route('contact-data') }}">Nachricht</a>
         </nav>
 
     </div>

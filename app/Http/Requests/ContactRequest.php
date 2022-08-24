@@ -25,9 +25,21 @@ class ContactRequest extends FormRequest
     {
         return [
             'name' => 'required',
+            'email' => 'required|email',
             'subject' => 'required|min:5|max:50',
             'message' => 'required|min:5|max:500',
-            'email' => 'required|email'
         ];
     }
+
+
+
+    //public function messeges() {
+        //return [
+          //'name.required' => 'Bitte fügen Sie Ihre Namen an ',
+           //'email.required' => 'Bitte fügen Sie Ihre E-mail an',
+         //'subject.required' => 'Bitte fügen Sie Ihre Thema an',
+           // 'message.required' => 'Bitte fügen Sie Ihre Nachricht an'
+       // ]
+   // }
+
 }
