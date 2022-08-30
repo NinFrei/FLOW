@@ -22,7 +22,8 @@
     <!-- Styles -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/customstyles.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('css/customstyles.scss') }}" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -37,17 +38,13 @@
 </head>
 
 <body>
+
     @include('inc.header')
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <div class="container-fluid mt-5">
 
-            @if (Request::is('/'))
-                @include('inc.text')
-            @endif
-
-            @include('inc.message1')
-
-            <div class="row">
+            <div class="container-XXL" @if (Request::is('/')) @include('inc.text') @endif
+                @include('inc.message1') <div class="row">
                 <div class="col-8">
 
                     <h1><a href="/messages">@yield('title')</a></h1>
@@ -56,17 +53,22 @@
                     @if (Request::is('/contact'))
                         @include('inc.text')
                     @endif
-
                 </div>
-                <div class="col-4" @include('inc.aside') @include('inc.footer') <div><b>Dummy Footer:
-                        {{ date('d.m.Y') }}
-                    </b></div>
-
             </div>
         </div>
     </div>
+    <div class="col-4" @include('inc.aside') @include('inc.footer') <div><b>Dummy
+            Footer:{{ date('d.m.Y') }}</b></div>
 
     </div>
+
+
+
+
+
+
+
+    <div>
 </body>
 
 </html>

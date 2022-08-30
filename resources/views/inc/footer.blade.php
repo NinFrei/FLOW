@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-XXL">
     <footer class="row row-cpls-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
             <h2>Flow</h2>
@@ -35,15 +35,16 @@
             </ul>
         </div>
 
+
         <div class="row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
             <div class="col-p4">© 2022 Company, Inc. All rights reserved</div>
         </div>
-        <ion-icon name="logo-twitter"></ion-icon>
-        <ion-icon name="logo-facebook"></ion-icon>
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+        <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg .com/ionons@5.5.2/dist/ionons/ionons.js"></script>
+        <script nomodule="" src="https://unpkg .com/ionons@5.5.2/dist/ionons/ionons.js"></script>
 
 
 

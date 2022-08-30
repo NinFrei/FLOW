@@ -7,6 +7,7 @@
 @section('content')
     <h1>Kontakt</h1>
 
+    @include('inc.aside')
 
     <form action="{{ route('contact-form') }}" method="post">
         @csrf
@@ -37,10 +38,7 @@
     </form>
 @endsection
 
-@section('aside')
-    @parent
-    <p>etwas Text</p>
-@endsection
+
 
 @section('title-blok')
     Contact

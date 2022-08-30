@@ -58,7 +58,35 @@ body {
     margin-left: auto;
 }
 
-.logo-twitter {}
+section {
+
+    padding-top: 100px;
+    padding-left: 200px;
+
+}
+
+
+// .container-XXL {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+
+.container__of__all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.m-bottom {
+    margin-bottom: 2rem;
+}
+
+.img-fit {
+    width: 50%;
+    object-fit: cover;
+    height: 500px;
+}
 
 
 
@@ -78,5 +106,22 @@ body {
         max-height: 80px;
     }
 
-    .container (max-width: 800px)
+    @media screen and (max-width: 800px) {
+
+        //(max-width: 650px)
+        // .container {}
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+
+
+
+
+
+
+
+
 }
