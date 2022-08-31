@@ -45,6 +45,7 @@
 
             <div class="container-XXL" @if (Request::is('/')) @include('inc.text') @endif
                 @include('inc.message1') <div class="row">
+
                 <div class="col-8">
 
                     <h1><a href="/messages">@yield('title')</a></h1>
@@ -57,10 +58,11 @@
             </div>
         </div>
     </div>
-    <div class="col-4" @include('inc.aside') @include('inc.footer') <div><b>Dummy
-            Footer:{{ date('d.m.Y') }}</b></div>
-
     </div>
+    <div class="col-4" @include('inc.aside') @include('inc.footer') <b>Dummy
+        Footer:{{ date('d.m.Y') }}</b></div>
+
+
 
 
 

@@ -7,7 +7,13 @@ body {
     background: #fafafa;
     font-family: 'Inknut Antiqua';
     margin: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
 }
+
 
 .header1 {
     background-color: rgb(220, 237, 31);
@@ -58,6 +64,39 @@ body {
     margin-left: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Inknut Antiqua';
+    font-weight: 400;
+}
+
+.card-text {
+    line-height: 28px;
+    margin-bottom: 25px;
+    color: rgb(0, 0, 0)
+}
+
+.centered {
+    text-align: center;
+
+}
+
+a {
+    color: rgb(12, 5, 5)
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+
 section {
 
     padding-top: 100px;
@@ -71,6 +110,10 @@ section {
 //     flex-direction: column;
 // }
 
+.buttontext {
+    font-weight: 900;
+
+}
 
 .container__of__all {
     display: flex;

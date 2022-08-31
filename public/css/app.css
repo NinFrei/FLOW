@@ -10907,6 +10907,9 @@ body {
   background: #fafafa;
   font-family: "Inknut Antiqua";
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 70px;
 }
 
 .header1 {
@@ -10941,6 +10944,84 @@ body {
   max-height: 160px;
 }
 
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Inknut Antiqua";
+  font-weight: 400;
+}
+
+.card-text {
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: rgb(12, 5, 5);
+}
+
+a:hover,
+a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+section {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.buttontext {
+  font-weight: 900;
+}
+
+.container__of__all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.m-bottom {
+  margin-bottom: 2rem;
+}
+
+.img-fit {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 500px;
+}
+
 @media screen and (max-width: 800px) {
   .header1 {
     height: 100px;
@@ -10951,5 +11032,11 @@ body {
   }
   .logo1 {
     max-height: 80px;
+  }
+}
+@media screen and (max-width: 800px) and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
   }
 }
