@@ -1,10 +1,8 @@
 <section>
-    <div class="jumbotron">
+    
+    <div class="jumbotron-fluid">
         <div class="container-XXL">
             <div class="row">
-
-
-
                 <div class="container__of__all">
                     <div class="card m-bottom" style="width: 35rem;">
                         <img src="./img/chanel.jpg" class="card-img-top" alt="Beaty ">
@@ -55,11 +53,7 @@
                             <h3 class="card-title">FEMALE EMPOWERMENT</h3>
                             <p class="card-text">Ungerechtigkeit zieht sich durch unseren Alltag und ist eigentlich
                                 überall. Denn nicht nur in der realen Welt existieren Ungerechtigkeiten.
-                                <!--, sondern auch in
-                                der digitalen – sie stecken in unserer Technik, in den verborgenen Codes, die sie
-                                steuern. Egal, ob wir einen neuen Job suchen, einen Kredit abschließen oder uns einfach
-                                auf einer sozialen Plattform austauschen wollen: Algorithmen verstärken Vorurteile und
-                                wirken diskriminierend auf Frauen und Minderheiten.-->
+                                
                             </p>
                             <a href="empowerment" class="btn" style="font-weight: 900">WEITERLESEN</a>
                         </div>
@@ -79,12 +73,7 @@
                                 hiernei spielt die Deko eine entscheidene Rolle. Diese fünf Fehler beim Einrichten
                                 giltes deshalb zu vermeiden.
                             </p>
-                            <!--<p>1. AUF VORHÄNGE VERZICHTEN</p>
-                            <p>2. VERSCHIDENE BODENMATERIALIEN </p>
-                            <p>3. ZU WENIG LICHT</p>
-                            <p>4. MÖBEL DIREKT
-                                AN DIE WAND WAND</p>
-                            <p>5. DIE WAND KAHL LASSEN</p>-->
+                            
                             <a href="lifestyle" class="btn" style="font-weight: 900">WEITERLESEN</a>
                         </div>
                     </div>
@@ -99,10 +88,7 @@
                                 mit einer breiten Lesergemeinde nicht nur in ihrem Heimatland, sondern auf der ganzen
                                 Welt.
 
-                                <!--Im Laufe der Jahre arbeiteten Nina und Luca mit einigen ihrer Lieblingsmarken zusammen,
-                                darunter zum Beispiel Christian Louboutin, Dior und Bobbi Brown, was dazu führte, dass
-                                einige der weltweit etabliertesten Magazine wie Glamour, Grazia und Refinery 29 auf sie
-                                aufmerksam wurden.--> Im Mai 2016 war Tiphaine auf dem Cover des französischen
+                                Im Mai 2016 war Tiphaine auf dem Cover des französischen
                                 Magazins.
 
 

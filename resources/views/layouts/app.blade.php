@@ -23,9 +23,9 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('css/customstyles.scss') }}" rel="stylesheet">
+    <link href="{{ asset('css/customstyles.scss') }}" rel="stylesheet" type="text/css">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -38,6 +38,7 @@
 </head>
 @include('inc.header')
 <body>
+@yield('content')
 @yield ('beauty')
 @yield('home')
 @yield('modetrends')
@@ -45,9 +46,9 @@
 @yield('empowerment')
 @yield('lifestyle')
 @yield('aboutme')
-
+@yield('contact')
 <div class="col-8">
-                             @yield('content')
+                             
                          <h1><a href="/messages">@yield('title')</a></h1>
                          @include('inc.message1') 
                          @if (Request::is('/contact'))
@@ -81,7 +82,7 @@
         </div>
 
 
-</div> 
+</div>  
     
 </body>
 

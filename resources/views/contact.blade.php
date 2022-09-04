@@ -4,7 +4,9 @@
     Kontakt
 @endsection-->
 
-@section('content')
+@section('contact')
+<div class="container-fluid mt-3">
+
     <h1>Kontakt</h1>
 
    <div> @if (Request::is('/')) @include('inc.text') @endif</div>
@@ -12,6 +14,7 @@
         @csrf
 
         <br>
+        <div class="cadr">
         <div class="form-group">
             <label for="name">Name einfügen</label>
             <input type="text" name="name" placeholder="Name einfügen" id="name" class="form-control">
@@ -32,9 +35,11 @@
             <label for="message">Nachricht</label>
             <textarea name="message" id="message" class="form-control" placeholder="Füge deine Nachricht"></textarea>
         </div>
+</div>   
         <br>
         <button type="submit" class="btn btn-success">Schicken</button>
     </form>
+</div>
 @endsection
 
 

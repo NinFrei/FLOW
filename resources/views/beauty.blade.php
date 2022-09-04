@@ -10,7 +10,7 @@
 
             <h1>Sandwich-Technik: So optimieren Sie Ihre Hautpflege-Routine (laut Instagram-Trend)</h1>
             <br>
-            <p class="card-text">Hoch dosierte Wirkstoffe, milde Formeln, die die Haut nicht reizen und innovative, luxuriöse
+            <p class="text-break">Hoch dosierte Wirkstoffe, milde Formeln, die die Haut nicht reizen und innovative, luxuriöse
                 Texturen: Wir haben hohe Anforderungen für unsere Hautpflege-Produkte im Badezimmer. Doch mindestens so wichtig wie
                 die Qualität von Cremes, Seren und Toner ist die Reihenfolge, in der wir diese auftragen. Das unterstreicht auch der
                 neue Hautpflege-Trend, der sich rundum die sogenannte Sandwich-Technik dreht und sich auf Instagram gerade wie ein
@@ -20,7 +20,7 @@
             <h4><strong> Die Hautpflege-Routine: Um was geht es bei der Sandwich-Technik?</strong></h4>
             <br>
             
-            <p class="card-text">Das Keyword Sandwich-Technik trendet gerade auf der Social Media Plattform Instagram und wird dort
+            <p>Das Keyword Sandwich-Technik trendet gerade auf der Social Media Plattform Instagram und wird dort
                 in zahlreichen
                 Video-Beitragen erklärt. Und tatsächlich handelt es sich dabei um eine hochwirksame Technik, um die persönlichen
                 Hautpflege-Produkte aufzutragen und deren Wirkung zu verbessern – durch ein paar einfache Tricks und die richtige
@@ -45,7 +45,7 @@
             <br>
             <h4><strong>Schritt für Schritt: So funktioniert die Sandwich-Technik für schöne Haut</strong></h4>
             <br>
-            <p class="card-text">Serum und Creme sind die beiden wichtigsten Komponenten eines guten Hautpflege-Regimes. Ebenso
+            <p>Serum und Creme sind die beiden wichtigsten Komponenten eines guten Hautpflege-Regimes. Ebenso
                 wichtig ist jedoch,
                 diese richtig anzuwenden. Mit der Sandwich-Technik gelingt das – gleichzeitig optimiert sie die Wirkung der
                 jeweiligen Produkte. Und so funktioniert der Hautpflege-Trend Schritt für Schritt:
@@ -72,7 +72,7 @@
             </ol>
             <br>
             <br>
-            <p class="card-text">Klingt simpel? Ist es auch – doch tatsächlich machen die drei kleinen Schritte der Sandwich-Technik
+            <p>Klingt simpel? Ist es auch – doch tatsächlich machen die drei kleinen Schritte der Sandwich-Technik
                 Ihre
                 Hautpflege-Produkte um einiges wirksamer und das lässt die Haut zukünftig frisch, gesund und rosig strahlen. </p>
 </div>
