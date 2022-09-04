@@ -19,8 +19,8 @@ body {
 
 
 .header1 {
-    background-color: rgb(220, 237, 31);
-    height: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 220px;
     display: flex;
     align-items: center;
     padding: 0 4rem !important;
@@ -50,11 +50,9 @@ body {
 .logo1 {
     position: relative;
     max-height: 220px;
+    margin-bottom: 2px;
 }
 
-.navbar1 {
-    position: relative;
-}
 
 .container,
 .container-fluid,

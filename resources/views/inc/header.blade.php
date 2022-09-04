@@ -1,5 +1,5 @@
 @section('header')
-    <div class="header1 container-XXL">
+    <div class="header1 container-XXL border-bottom border-2 border-dark">
         <div class="col-md-4">
                 <img class="logo1" src="/img/Logo.jpg" class="headerlogo" alt="Logo">
         </div>
@@ -11,7 +11,7 @@
     </div>
 
 
-    <div class="my-0 mr-md-auto font-weight-normal"></a>
+    <div class="my-0 mr-md-auto font-weight-normal border-bottom border-2 sticky-top bg-white"></a>
         <!--<div class="navbar navbar-inverse navbar-fixed-top">
                 <div class="contaiter">
                     <div class="navbar-header">-->
