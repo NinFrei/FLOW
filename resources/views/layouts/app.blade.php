@@ -51,7 +51,8 @@
                              
                          <h1><a href="/messages">@yield('title')</a></h1>
                          @include('inc.message1') 
-                         @if (Request::is('/contact'))
+
+                         <!-- @if (Request::is('/contact')) -->
                          @include('inc.text')
                          @endif
                          

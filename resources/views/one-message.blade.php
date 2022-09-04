@@ -7,6 +7,7 @@
 @endsection
 
 @section('content')
+<div class="container-fluid">
     <h2>{{ $data->subject }}</h2>
     <div class="alert alert-info">
         <p>{{ $data->name }}</p>
@@ -16,4 +17,5 @@
         <a href="{{ route('contact-update', $data->id) }}"><button class="btn btn-primary">Verändern</button></a>
         <a href="{{ route('contact-delete', $data->id) }}"><button class="btn btn-danger">Löschen</button></a>
     </div>
+</div>
 @endsection
