@@ -1,12 +1,12 @@
 @section('header')
 <div class="wrapper">
     <div class="header1 container-XXL">
-        <div class="header_row">
+        <div class="row">
         <div class="col-md-4">
                 <img class="logo1" src="/img/Logo.jpg" class="headerlogo" alt="Logo">
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-8 text-center">
             <span class="headertext1">FLOW</span>
         </div>
 
