@@ -1,7 +1,8 @@
 <div class="container-XXL">
     <footer class="row row-cpls-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
-            <h2>Flow</h2>
+            <a class="navbar-brand" href="#">FLOW</a>
+            
         </div>
         <div class="col mb-3"></div>
         <div class="col mb-3">

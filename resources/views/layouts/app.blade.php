@@ -36,41 +36,57 @@
 
     <title>@yield('title-blok')</title>
 </head>
-
+@include('inc.header')
 <body>
+@yield ('beauty')
+@yield('home')
+@yield('modetrends')
+@yield('shop')
+@yield('empowerment')
+@yield('lifestyle')
+@yield('aboutme')
 
-    @include('inc.header')
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-        <div class="container-fluid mt-5">
+<div class="col-8">
+                             @yield('content')
+                         <h1><a href="/messages">@yield('title')</a></h1>
+                         @include('inc.message1') 
+                         @if (Request::is('/contact'))
+                         @include('inc.text')
+                         @endif
+                         
+                   
+    
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <div class="container-fluid mt-5">
 
-            <div class="container-XXL" @if (Request::is('/')) @include('inc.text') @endif
-                @include('inc.message1') <div class="row">
+                <div class="container-XXL" 
+                
+                    <div class="row">
 
-                <div class="col-8">
+                        <div class="col-8">
+                            @yield('content')
+                            <h1><a href="/messages">@yield('title')</a></h1>
+                            @include('inc.message1') 
+                            @if (Request::is('/contact'))
+                            @include('inc.text')
+                            @endif
+                            
+                        </div>
+                        <div class="col-4"></div>
 
-                    <h1><a href="/messages">@yield('title')</a></h1>
-                    @yield('content')
-
-                    @if (Request::is('/contact'))
-                        @include('inc.text')
-                    @endif
+                    </div>
                 </div>
             </div>
+
         </div>
-    </div>
-    </div>
-    <div class="col-4" @include('inc.aside') @include('inc.footer') <b>Dummy
+
+
+</div> 
+    
+</body>
+
+@include('inc.footer') <b>Dummy
         Footer:{{ date('d.m.Y') }}</b></div>
 
-
-
-
-
-
-
-
-
-    <div>
-</body>
 
 </html>

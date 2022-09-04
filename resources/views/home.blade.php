@@ -1,15 +1,9 @@
 @extends('layouts.app')
 
-@section('header')
-    @parent
-    <p>Text</p>
-@endsection
-
-@section('title-blok')
-    Home
-@endsection
-
-@section('content')
+@section('home')
+<div class="row">   
+@include('inc.text') 
+</div>
     <!-- <div class="row">
                             <div class="column">
                                 <div class="card" style="width: 30rem;">
@@ -41,9 +35,9 @@
                                     content.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
-                        </div>-->
+                        </div>
 
-    <!--<div class="row">
+    <div class="row">
                 <div class="column">
                     <div class="card">
                         <img src="./img/chanel-hc-f22-014.jpg" alt="Beaty" style="width:20rem">
@@ -82,5 +76,5 @@
                         </div>
                     </div>
                 </div>
-            </div>-->
+            </div> -->
 @endsection

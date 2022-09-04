@@ -15,4 +15,5 @@
         @method('delete')
         <button type="submit">Delete</button>
     </form>
+    
 @endsection

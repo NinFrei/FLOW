@@ -5,7 +5,10 @@
 body {
 
     background: #fafafa;
-    font-family: 'Inknut Antiqua';
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Nato';
     margin: 0;
 
     -webkit-font-smoothing: antialiased;
@@ -35,17 +38,17 @@ body {
 .headertext1 {
     margin: 0 1rem;
     text-transform: uppercase;
-    font-size: 10rem;
+    font-size: 15rem;
     font-weight: bold;
     background: linear-gradient(46deg, rgb(2, 2, 250), red, rgb(173, 3, 173));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Inknut Antiqua';
+    font-family: 'Nato', serif;
 }
 
 .logo1 {
-    max-height: 160px;
+    max-height: 220px;
 }
 
 .container,
@@ -64,29 +67,37 @@ body {
     margin-left: auto;
 }
 
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Inknut Antiqua';
+    font-family: 'Noto Serif, italic';
     font-weight: 400;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    ;
 }
 
 .card-text {
     line-height: 28px;
     margin-bottom: 25px;
-    color: rgb(0, 0, 0)
+    color: rgb(5, 5, 5)
 }
 
-.centered {
-    text-align: center;
+// .centered {
+//     text-align: center;
 
-}
+//}
 
 a {
-    color: rgb(12, 5, 5)
+    color: #333;
 }
 
 a:hover,
@@ -96,6 +107,14 @@ a:focus {
     outline: 0;
 }
 
+.navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
 
 section {
 
@@ -104,11 +123,6 @@ section {
 
 }
 
-
-// .container-XXL {
-//     display: flex;
-//     flex-direction: column;
-// }
 
 .buttontext {
     font-weight: 900;
@@ -131,8 +145,18 @@ section {
     height: 500px;
 }
 
+.unter-text {
+    font-family: 'Noto';
+    text-align: center;
+    font-weight: 100;
+    color: #333;
+}
 
-
+.responsive {
+    max-width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 
 
 @media screen and (max-width: 800px) {
@@ -149,6 +173,8 @@ section {
         max-height: 80px;
     }
 
+    
+
     @media screen and (max-width: 800px) {
 
         //(max-width: 650px)
@@ -157,6 +183,8 @@ section {
             width: 100%;
             display: block;
         }
+
+        
     }
 
 

@@ -1,14 +1,13 @@
 @extends('layouts.app')
 
-@section('title-blok')
+<!--@section('title-blok')
     Kontakt
-@endsection
+@endsection-->
 
 @section('content')
     <h1>Kontakt</h1>
 
-    @include('inc.aside')
-
+   <div> @if (Request::is('/')) @include('inc.text') @endif</div>
     <form action="{{ route('contact-form') }}" method="post">
         @csrf
 

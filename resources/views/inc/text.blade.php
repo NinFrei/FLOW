@@ -9,7 +9,7 @@
                     <div class="card m-bottom" style="width: 35rem;">
                         <img src="./img/chanel.jpg" class="card-img-top" alt="Beaty ">
                         <div class="card-body">
-                            <h3 class="card-title">Modetrends</h3>
+                            <h3 class="card-title">MODETRENDS</h3>
                             <p class="card-text">Während wir die letzten Wochen des Sommers genießen, macht sich die
                                 Modewelt schon für die neue Saison bereit. Denn die Mode-Trends für den Herbst und
                                 Winter 2022 stehen in den Startlöchern und warten nur darauf, die Schaufenster,
@@ -21,13 +21,14 @@
                     <div class="card m-bottom" style="width: 35rem;">
                         <img src="./img/gettyimages-1357523986.jpg" class="card-img-top" alt="Beaty">
                         <div class="card-body">
-                            <h3 class="card-title">Beaty</h3>
-                            <p class="card-text">Was steckt hinter der Wirkung von
-                                Kollagen in Cremes, Drinks und Co? Ich erkläre Ihnen, was es mit den wichtigsten
-                                Begriffen rund um die Hautschönheit auf sich hat und checken alle Fakten um die Wirkung
-                                von Kollagen: Können Cremes, Drinks oder Pulver mit Kollagen tatsächlich zu schöner,
-                                straffer Haut verhelfen?</p>
-                            <a href="beaty" class="btn" style="font-weight: 900">WEITERLESEN</a>
+                            <h3 class="card-title">BEAUTY</h3>
+                            <p class="card-text">Hoch dosierte Wirkstoffe, milde Formeln, die die Haut nicht reizen und
+                                innovative, luxuriöse Texturen: Wir haben hohe Anforderungen für unsere
+                                Hautpflege-Produkte im Badezimmer.
+                                Doch mindestens so wichtig wie die Qualität von Cremes, Seren und Toner ist die
+                                Reihenfolge.
+                            </p>
+                            <a href="beauty" class="btn" style="font-weight: 900">WEITERLESEN</a>
                         </div>
                     </div>
 
@@ -40,7 +41,7 @@
                                 Work-Life-Blending.Der Unterschied beim Work-Life-Blending: Statt Beruf und Freizeit
                                 nacheinander auszuüben, verschmelzen diese Bereiche nun miteinander und finden
                                 idealerweise gleichzeitig statt.</p>
-                            <a href="Shop" class="btn" style="font-weight: 900">WITERLESEN</a>
+                            <a href="shop" class="btn" style="font-weight: 900">WITERLESEN</a>
                         </div>
                     </div>
 
@@ -65,7 +66,7 @@
                     </div>
 
                     <div class="card m-bottom" style="width: 35rem">
-                        <img src="./img/gettyimages-1149521187.jpg" class="card-img-top" alt="Beaty"
+                        <img src="./img/gettyimages-1149521187.jpg" class="card-img-top" alt="Lifestyle"
                             style="width:100%">
                         <div class="card-body">
                             <h3 class="card-title">LIFESTYLE</h3>

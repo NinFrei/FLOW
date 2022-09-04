@@ -1,12 +1,9 @@
 @extends('layouts.app')
+<div class="container-fluid mt-3">
 
-@section('title-blok')
-    about me
-@endsection
+  <div class="row">
 
-@section('content')
-    <h1>about me</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae commodi, sed laudantium sequi dolor corrupti
-        reiciendis tempore explicabo dignissimos velit aliquam esse a similique odio nobis mollitia blanditiis dolore!
-        Temporibus.</p>
-@endsection
+    <div class="col-sm-8 p-3 bg-warning text-dark">.col</div>
+    <div class="col-sm-4 p-3 bg-primary text-dark">.col</div>
+  </div>
+</div>
