@@ -10945,7 +10945,8 @@ body {
 }
 
 .logo1 {
-  padding-top: 1rem;
+  position: relative;
+  margin-top: 1000rem;
   max-height: 220px;
 }
 
