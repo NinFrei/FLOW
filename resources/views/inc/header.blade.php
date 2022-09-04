@@ -19,15 +19,15 @@
 
 
         <nav class="navbar navbar-nev navbar-center rexpand-sm justify-content-center my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="{{ route('home') }}">Home</a>
-            <a class="p-2 text-dark" href="{{ route('modetrends') }}">Modetrends</a>
-            <a class="p-2 text-dark" href="{{ route('beauty') }}">Beauty</a>
-            <a class="p-2 text-dark" href="{{ route('empowerment') }}">Female empowerment</a>
-            <a class="p-2 text-dark" href="{{ route('lifestyle') }}">Lifestyle</a>
-            <a class="p-2 text-dark" href="{{ route('shop') }}">Shop</a>
-            <a class="p-2 text-dark" href="{{ route('aboutme') }}">About me</a>
-            <a class="p-2 text-dark" href="{{ route('contact') }}">Contact</a>
-            <a class="p-2 text-dark" href="{{ route('contact-data') }}">Nachricht</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('home') }}">Home</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('modetrends') }}">Modetrends</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('beauty') }}">Beauty</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('empowerment') }}">Female empowerment</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('lifestyle') }}">Lifestyle</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('shop') }}">Shop</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('aboutme') }}">About me</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('contact') }}">Contact</a>
+            <a class="p-2 px-5 text-dark" href="{{ route('contact-data') }}">Nachricht</a>
         </nav>
 
     </div>
