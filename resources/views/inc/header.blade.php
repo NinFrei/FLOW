@@ -1,11 +1,9 @@
 @section('header')
 <div class="wrapper">
-    <div class="header1 container">
+    <div class="header1 container-XXL">
         <div class="header_row">
         <div class="col-md-4">
-            <a href="/" target="_blank" rel="noopener noreferrer">
                 <img class="logo1" src="/img/Logo.jpg" class="headerlogo" alt="Logo">
-            </a>
         </div>
 
         <div class="col-md-8">
