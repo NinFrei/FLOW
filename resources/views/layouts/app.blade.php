@@ -93,6 +93,5 @@
     
     </body>
 
-    @include('inc.footer') <b>Dummy
-            Footer:{{ date('d.m.Y') }}</b> 
+    @include('inc.footer') <b></b> 
 </html>

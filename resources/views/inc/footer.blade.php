@@ -1,99 +1,31 @@
-<div class="container-XXL">
-    <!-- <footer class="row row-cpls-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-        <div class="col mb-3">
-            <a class="navbar-brand" href="#">FLOW</a>
-            
-        </div>
-        <div class="col mb-3"></div>
-        <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-        </div>
-        <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-        </div>
-        <div class="col mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-        </div>
-
-
-        <div class="row d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <div class="col-p4">© 2022 Company, Inc. All rights reserved</div>
-        </div>
-        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
-        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
-        <ion-icon name="logo-linkedin" role="img" class="md hydrated" aria-label="logo linkedin"></ion-icon>
-
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule="" src="https://unpkg .com/ionons@5.5.2/dist/ionons/ionons.js"></script>
-
-
-
-  -->
-    <!-- </footer> -->
-<footer>
-    <div class="footer_up">
-    <div class="container_cusom">
-    <div class="col-md-6">
-        <div class="mnu_footer">
-            <div class="col_mnu_footer">
-                <b>Information</b>
-                <ul>
-                    <li><a href="#">AAAAA</a></li>
-                    <li><a href="#">AAAAA</a></li>
-                    <li><a href="#">AAAAA</a></li>
-                    <li><a href="#">AAAAA</a></li>
+<div class="container-fluid border-top border-2 position-absolute">
+    <div class="row justify-content-md-center">
+        <div class="col text-end pt-3"> 
+            <h4 class="fw-bold">How to Contact me</h4>
+                <ul style="list-style-type: none;">
+                    <li><a class="pt-4 text-dark text-weight-normal text-decoration-none" href="{{ route('contact') }}">Contact</a></li>
+                    <li></li><a class=" text-dark text-decoration-none" href="{{ route('contact-data') }}">Mails</a></li>
                 </ul>
-            </div>
-            <div class="col_mnu_footer">
-                <b></b>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-            <div class="col_mnu_footer">
-                <b></b>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-            </div>
-        
-            </b>
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+        </div>
+        <div class="col text-center pt-3 "> 
+            <h4 class="fw-bold">Languages</h4>
+            <ul style="list-style-type: none;" class="text-center">
+                <li><a>Deutsche Version</a></li>
+                <li><a>Englische Version</a></li>
+                <li><a>Französische Version</a></li>
             </ul>
-                
-            </div>
-
-            </div>
+        </div>
+        <div class="col text-start pt-3 "> 
+            <h4 class="fw-bold">Important Informations</h4>
+            <ul style="list-style-type: none;">
+                <li><a class="text-dark text-decoration-none" href="{{ route('aboutme') }}">About me</a></li>
+                <li><a>AGBs</a></li>
+            </ul>
         </div>
     </div>
+    <div class="container-fluid border-top border-1 pt-3">
+        <p>Ⓒ by <strong>Flow.com</strong></p>
     </div>
-    </div>
-</footer>
+    
 
 </div> 
