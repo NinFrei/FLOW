@@ -8,7 +8,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-    font-family: 'Nato';
+    font-family: 'Nato Serif';
     margin: 0;
 
     -webkit-font-smoothing: antialiased;
@@ -44,7 +44,7 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'Nato', serif;
+    font-family: 'Nato Serif';
 }
 
 .logo1 {
@@ -84,7 +84,8 @@ h6 {
 
 p {
     line-height: 28px;
-    ;
+    font-size: 23px;
+    
 }
 
 .card-text {
@@ -149,6 +150,7 @@ section {
 
 .unter-text {
     font-family: 'Noto';
+    font-size: 18px;
     text-align: center;
     font-weight: 100;
     color: #333;
@@ -163,6 +165,7 @@ section {
 
 @media screen and (max-width: 800px) {
     .header1 {
+        
         height: 100px;
     }
 

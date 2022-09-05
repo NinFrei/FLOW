@@ -1,5 +1,5 @@
 <div class="container-XXL">
-    <footer class="row row-cpls-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <!-- <footer class="row row-cpls-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
         <div class="col mb-3">
             <a class="navbar-brand" href="#">FLOW</a>
             
@@ -49,9 +49,51 @@
 
 
 
+  -->
+    <!-- </footer> -->
+<footer>
+    <div class="footer_up">
+    <div class="container_cusom">
+    <div class="col-md-6">
+        <div class="mnu_footer">
+            <div class="col_mnu_footer">
+                <b>Information</b>
+                <ul>
+                    <li><a href="#">AAAAA</a></li>
+                    <li><a href="#">AAAAA</a></li>
+                    <li><a href="#">AAAAA</a></li>
+                    <li><a href="#">AAAAA</a></li>
+                </ul>
+            </div>
+            <div class="col_mnu_footer">
+                <b></b>
+                <ul>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="col_mnu_footer">
+                <b></b>
+                <ul>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        
+            </b>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+                
+            </div>
 
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</footer>
 
-
-
-    </footer>
-</div>
+</div> 

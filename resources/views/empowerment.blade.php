@@ -87,7 +87,7 @@
 
                                         <div class="col-md-4 p-3">
                                             <div class="container mt-3 text-center">
-                                            <!--<div class="card">-->
+                                            <div class="card">                           
                                                 <img src= "./img/budapest-select-bbt-s22-009.jpg" class="responsive" alt="female" width="450" height="600"> 
                                                 <p class="unter-text">Durch die Sandwich-Technik können Feuchtigkeit und pflegende Wirkstoffe optimal absorbiert werden (Beauty-Look von Budapest Selection Frühling/Sommer 2022)</p>
                                             </div>

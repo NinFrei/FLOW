@@ -19,6 +19,3 @@
 @endsection
 
 
-<!--@section('title-blok')
-    Lifestyle
-@endsection-->

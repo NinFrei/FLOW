@@ -55,14 +55,7 @@
                         </div>
                     </div>   
               
-            <!-- <div class="shop row row-cols-3">
-                <div class="col border">
-                <img  src="./img/budapest-select-bbt-s22-009.jpg" width="40%">
-                </div> -->
-        
+            
 </div>            
 @endsection
 
-<!--@section('title-blok')
-    Shop
-@endsection-->
