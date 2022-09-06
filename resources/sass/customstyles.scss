@@ -77,7 +77,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Noto Serif, italic';
+    font-family: 'Noto Serif';
     font-weight: 400;
     color: #333;
 }
@@ -89,15 +89,12 @@ p {
 }
 
 .card-text {
+    text-align: center;
     line-height: 28px;
     margin-bottom: 25px;
     color: rgb(5, 5, 5)
 }
 
-// .centered {
-//     text-align: center;
-
-//}
 
 a {
     color: #333;
@@ -160,6 +157,27 @@ section {
     max-width: 100%;
     max-width: 400px;
     height: auto;
+}
+
+.modetext {
+    margin: 0 1rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(46deg, rgb(2, 2, 250), red, rgb(173, 3, 173));
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Nato Serif';
+}
+
+li {
+    font-family: 'Noto Serif';
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
 }
 
 

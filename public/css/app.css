@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Serif,wght@0,400;0,700;1,400&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
@@ -10977,7 +10977,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Noto Serif, italic";
+  font-family: "Noto Serif";
   font-weight: 400;
   color: #333;
 }
@@ -10988,6 +10988,7 @@ p {
 }
 
 .card-text {
+  text-align: center;
   line-height: 28px;
   margin-bottom: 25px;
   color: rgb(5, 5, 5);
@@ -11049,6 +11050,26 @@ section {
   max-width: 100%;
   max-width: 400px;
   height: auto;
+}
+
+.modetext {
+  margin: 0 1rem;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(46deg, rgb(2, 2, 250), red, rgb(173, 3, 173));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Nato Serif";
+}
+
+li {
+  font-family: "Noto Serif";
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(3, 3, 3);
 }
 
 @media screen and (max-width: 800px) {
