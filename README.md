@@ -62,3 +62,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+#######Projektbeschreibung
+Ein Blog, die Informationswebseite über Mode und Lifestyle.
+
+########Installationsskript
+Die Instalation wurde gemacht nach Anweisungen und Skript (laravelmix) von Anita Peyer.
+
+########Links zu Trello, Figma, Penpot, Solo Contract
+Ich habe keine Notozen gemacht.
+
+########Forschungsseiten
+https://www.bootstrapcdn.com/;   https://www.w3schools.com/bootstrap5/;  https://www.youtube.com/watch?v=a4DvxcTyU5o
