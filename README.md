@@ -1,3 +1,15 @@
+#######Projektbeschreibung
+Ein Blog, die Informationswebseite über Mode und Lifestyle.
+
+########Installationsskript
+Die Instalation wurde gemacht nach Anweisungen und Skript (laravelmix) von Anita Peyer.
+
+########Links zu Trello, Figma, Penpot, Solo Contract
+Ich habe keine Notozen gemacht.
+
+########Forschungsseiten
+https://www.bootstrapcdn.com/;   https://www.w3schools.com/bootstrap5/;  https://www.youtube.com/watch?v=a4DvxcTyU5o
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -64,14 +76,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
-#######Projektbeschreibung
-Ein Blog, die Informationswebseite über Mode und Lifestyle.
 
-########Installationsskript
-Die Instalation wurde gemacht nach Anweisungen und Skript (laravelmix) von Anita Peyer.
-
-########Links zu Trello, Figma, Penpot, Solo Contract
-Ich habe keine Notozen gemacht.
-
-########Forschungsseiten
-https://www.bootstrapcdn.com/;   https://www.w3schools.com/bootstrap5/;  https://www.youtube.com/watch?v=a4DvxcTyU5o
