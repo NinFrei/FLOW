@@ -2,10 +2,10 @@
 Ein Blog, die Informationswebseite über Mode und Lifestyle.
 
 ########Installationsskript
-Die Instalation wurde gemacht nach Anweisungen und Skript (laravelmix) von Anita Peyer.
+Die Instalation wurde nach Anweisungen und Skript (laravelmix) von Anita Peyer gemacht.
 
 ########Links zu Trello, Figma, Penpot, Solo Contract
-Ich habe keine Notozen gemacht.
+Ich habe keine Notizen gemacht.
 
 ########Forschungsseiten
 https://www.bootstrapcdn.com/;   https://www.w3schools.com/bootstrap5/;  https://www.youtube.com/watch?v=a4DvxcTyU5o
