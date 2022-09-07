@@ -10,32 +10,32 @@
     </div>
     <ul>
         <li>
-            <h2 class="mt-4 mb-3">Interior: 5 Deko-Fehler, die die Wohnung kleiner wirken lassen! </h2>
+            <h2 class="mt-4 mb-4">Interior: 5 Deko-Fehler, die die Wohnung kleiner wirken lassen! </h2>
             <ol>
                     <li>AUF VORGÄNGE VERZICHEN</li>
-                    <div class="container mt-3 text-center">         
+                    <div class="container mt-4 mb-3 text-center">         
                                     <img src= "./img/wohnung.jpg" class="float-height" alt="modetrends" width="350" height="250"> 
                                     <br>
                                     
                     </div>
                     <li>VERSCHIEDENE BODENMATERIALIEN</li>
-                    <div class="container mt-3 text-center">         
+                    <div class="container mt-4 mb-3 text-center">         
                                     <img src= "./img/die-7-haeufigsten-einrichtungsfehler-im-wohnzimmer.jpg" class="float-height" alt="modetrends" width="350" height="250"> 
                                     
                                     
                     </div>
                     <li>ZU WENIG LICHT</li>
-                    <div class="container mt-3 text-center">         
+                    <div class="container mt-4 mb-3 text-center">         
                                     <img src= "./img/tipps-ideen-11-einrichtungsfehler.jpg" class="float-height" alt="modetrends" width="350" height="250">                             
                     </div> 
                     <li>MOBEL AN DIE WAND SCHIEBEN</li>
-                    <div class="container mt-3 text-center">
+                    <div class="container mt-4 text-center">
                                     <img src= "./img/die-7-haeufigsten-einrichtungsfehler-im-wohnzimmer.jpg" class="float-height" alt="modetrends" width="350" height="250"> 
                                     
                                     
                                 </div>
                     <li>DIE WAND KAHL LASSEN</li>
-                    <div class="container mt-3 text-center">         
+                    <div class="container mb-5 mt-4 text-center">         
                                     <img src= "./img/images.jpg" class="float-height" alt="modetrends" width="350" height="250"> 
                                     
                                    

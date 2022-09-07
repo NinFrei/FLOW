@@ -57,7 +57,7 @@
                     werden und verdampfen nicht auf der Hautoberfläche. </li>
             </ol>
             
-            <p class="mt-5">Klingt simpel? Ist es auch – doch tatsächlich machen die drei kleinen Schritte der Sandwich-Technik
+            <p class="mb-5">Klingt simpel? Ist es auch – doch tatsächlich machen die drei kleinen Schritte der Sandwich-Technik
                 Ihre
                 Hautpflege-Produkte um einiges wirksamer und das lässt die Haut zukünftig frisch, gesund und rosig strahlen. </p>
                 
@@ -71,7 +71,7 @@
         </div>
         <div class="container my-5 text-center">
         <img src= "./img/balmain_bbt_f22_103.jpg" class="responsive" alt="female" width="450" height="250"> 
-        <p class="unter-text">Sandwich-Technik: Dieser Skincare-Trick soll die Hautpflege-Routine optimieren (Backstage-Look Balmain Frühling/Sommer 2022).</p>
+        <p class="unter-text mb-3">Sandwich-Technik: Dieser Skincare-Trick soll die Hautpflege-Routine optimieren (Backstage-Look Balmain Frühling/Sommer 2022).</p>
         </div>
         <div class="container mt-3 text-center">
         <img src= "./img/ferretti-bbt-s19-008.jpg" class="responsive" alt="female" width="450" height="250"> 
@@ -82,9 +82,7 @@
 
         </div>
 </div>
-<div class="container-fluid mt-3">
-<span class="modetext">Tolle Produckte für einen perfekten Glow: <br>  Shoppen Sie die in meinem on-line Shop</span>
-</div>
+
 </div>
 @endsection
 

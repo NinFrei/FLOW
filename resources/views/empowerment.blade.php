@@ -111,11 +111,9 @@
                 </div>
                                        
     </div>
-            <div class="container-fluid mt-3">
+            <div class="container-fluid text-center mb-5">
                                             <span class="modetext">Teilen Sie Ihre Meinung in meinem Mails mit!</span>
-                                            <br>
-                                            <br>
-                                            <br>
+                                            
             </div>
 </div>                                  
 @endsection
